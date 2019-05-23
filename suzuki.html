@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MotoRaster - Auta Japońskie</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="cars.css" type="text/css">
+  <link rel="stylesheet" href="css/fontello.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="header">
+      <div class="logo">
+        <img src="car.png" alt="car" style="width: 90px; height: 70px;">
+        <h3><span style="font-size: 40px; margin: 0 10px;">AutoJapan</span></h3>
+      </div>
+      <nav class="navbar">
+        <ul class="menu">
+          <li class="close"><span style="font-size: 30px;">&times;</span></li>
+          <li><a href="index.html"><i class="icon-home"></i>Home</a></li>
+          <li class="menucars"><a href="#"><i class="icon-th"></i>About cars</a>
+            <ul class="dropcars">
+              <li><a href="daewoo.html">Daewoo</a></li>
+              <li><a href="honda.html">Honda</a></li>
+              <li><a href="mazda.html">Mazda</a></li>
+              <li><a href="mtsb.html">Mitsubishi</a></li>
+              <li><a href="nissan.html">Nissan</a></li>
+              <li><a href="subaru.html">Subaru</a></li>
+              <li><a href="suzuki.html">Suzuki</a></li>
+              <li><a href="toyota.html">Toyota</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="icon-mobile"></i>Contact</a></li>
+          <li class="drop-menu"><a href="#"><i class="icon-link-ext"></i>Account</a>
+            <ul class="dropdown">
+              <li><a href="register.html">Register</a></li>
+              <li><a href="login.html">Login</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="mobile-btn"><i class="icon-menu"></i></div>
+        <div class="overlay"></div>
+      </nav>
+    </div>
+
+    <div class="main">
+      <div class="sidebar">
+        <ul class="list-car">
+          <li class="brand" id="menu-daewoo">
+            <a href="#"><img src="brands/daewoo_logo.png" alt="car" style="width: 90px; height: 70px;"></a>
+            <ul class="drop-car" id="drop-daewoo">
+              <li><a href="#">Espero</a></li>
+              <li><a href="#">Lanos</a></li>
+              <li><a href="#">Matiz</a></li>
+              <li><a href="#">Nexia</a></li>
+              <li><a href="#">Tico</a></li>
+            </ul>
+          </li>
+          <li class="brand" id="menu-honda">
+            <a href="#"><img src="brands/honda_logo.png" alt="car" style="width: 90px; height: 70px;"></a>
+            <ul class="drop-car" id="drop-honda">
+              <li><a href="#">Accord</a></li>
+              <li><a href="#">Civic</a></li>
+              <li><a href="#">City</a></li>
+              <li><a href="#">CR-V</a></li>
+              <li><a href="#">FR-V</a></li>
+              <li><a href="#">HR-V</a></li>
+              <li><a href="#">Jazz</a></li>
+            </ul>
+          </li>
+          <li class="brand" id="menu-mazda">
+            <a href="#"><img src="brands/mazda_logo.png" alt="car" style="width: 90px; height: 70px;"></a>
+            <ul class="drop-car" id="drop-mazda">
+              <li><a href="#">323F</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">6</a></li>
+              <li><a href="#">MX-5</a></li>
+              <li><a href="#">CX-3</a></li>
+              <li><a href="#">CX-5</a></li>
+            </ul>
+          </li>
+          <li class="brand" id="menu-mtsb">
+            <a href="#"><img src="brands/mitsubishi_logo.png" alt="car" style="width: 90px; height: 70px;"></a>
+            <ul class="drop-car" id="drop-mtsb">
+              <li><a href="#">ASX</a></li>
+              <li><a href="#">Colt</a></li>
+              <li><a href="#">Eclipse</a></li>
+              <li><a href="#">Gallant</a></li>
+              <li><a href="#">Lancer</a></li>
+              <li><a href="#">Outlander</a></li>
+            </ul>
+          </li>
+          <li class="brand" id="menu-nissan">
+            <a href="#"><img src="brands/nissan_logo.png" alt="car" style="width: 90px; height: 70px;"></a>
+            <ul class="drop-car" id="drop-nissan">
+              <li><a href="#">Almera</a></li>
+              <li><a href="#">Primera</a></li>
+              <li><a href="#">Juke</a></li>
+              <li><a href="#">Micra</a></li>
+              <li><a href="#">Note</a></li>
+              <li><a href="#">Qashqai</a></li>
+              <li><a href="#">Xtrail</a></li>
+            </ul>
+          </li>
+          <li class="brand" id="menu-subaru">
+            <a href="#"><img src="brands/subaru_logo.png" alt="car" style="width: 90px; height: 70px;"></a>
+            <ul class="drop-car" id="drop-subaru">
+              <li><a href="#">Forester</a></li>
+              <li><a href="#">Impreza</a></li>
+              <li><a href="#">Legacy</a></li>
+              <li><a href="#">Outback</a></li>
+              <li><a href="#">WRX</a></li>
+            </ul>
+          </li>
+          <li class="brand" id="menu-suzuki">
+            <a href="#"><img src="brands/suzuki_logo.png" alt="car" style="width: 90px; height: 70px;"></a>
+            <ul class="drop-car" id="drop-suzuki">
+              <li><a href="">Liana</a></li>
+              <li><a href="">Splash</a></li>
+              <li><a href="">Swift</a></li>
+              <li><a href="">SX4</a></li>
+              <li><a href="">Vitara</a></li>
+            </ul>
+          </li>
+          <li class="brand" id="menu-toyota">
+            <a href="#"><img src="brands/toyota_logo.png" alt="car" style="width: 90px; height: 70px;"></a>
+            <ul class="drop-car" id="drop-toyota">
+              <li><a href="#">Auris</a></li>
+              <li><a href="#">Avensis</a></li>
+              <li><a href="#">Aygo</a></li>
+              <li><a href="#">Corolla</a></li>
+              <li><a href="#">Camry</a></li>
+              <li><a href="#">Yaris</a></li>
+              <li><a href="#">RAV4</a></li>
+              <li><a href="#">Hillux</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <h4>Suzuki</h4><br />
+        <p>Suzuki Motor Corporation (jap. スズキ株式会社, Suzuki Kabushiki-gaisha) – japońskie przedsiębiorstwo zajmujące się produkcją samochodów, motocykli, silników do motorówek i wiele innych silników spalinowych różnego zastosowania, należący do wielkiej czwórki (Suzuki, Yamaha, Honda oraz Kawasaki) największych dystrybutorów motocykli na świecie. Suzuki posiada 15 fabryk w 14 krajach i 133 dystrybutorów w 119 krajach.</p><br /><br />
+        <img src="img/suzuki1.jpg" style="width: 450px; height: 250px; margin-top: 20px; border: 3px solid black;">
+        <img src="img/suzuki2.jpg" style="width: 450px; height: 250px; margin-top: 20px; border: 3px solid black;">
+        <br />
+        <h4>Historia</h4>
+          <p>Suzuki powstało w 1909 roku w Hamamatsu w Japonii przez przedsiębiorcę Michio Suzuki pod nazwą Suzuki Loom Company. Przedsiębiorstwo bardzo się rozwinęło, kiedy Suzuki rozpoczął sprzedaż krosien tkackich dla japońskiego przemysłu jedwabniczego, czego głównym pragnieniem Suzuki było tworzenie lepszych, łatwiejszych w obsłudze krosien. W 1929, Suzuki wynalazł nowy typ maszyny tkackiej, która była eksportowana do innych krajów. Suzuki zgłosił 120 patentów. Przez pierwsze 30 lat istnienia, krosna tkackie były głównym produktem i kierunkiem jej rozwoju.</p>
+          <p>Pomimo niebywałego sukcesu jego krosien, Suzuki zdał sobie sprawę, że jego przedsiębiorstwo musi rozwijać się w wielu kierunkach, w związku z czym zaczął poszukiwać nowych branż, w których mógłby działać. Na podstawie obserwacji zapotrzebowań klientów, zdecydował on, że najbardziej praktyczne dla nowego przedsięwzięcia byłoby stworzenie małego samochodu. Projekt rozpoczął się w roku 1937, a już po dwóch latach Suzuki posiadał kilka prototypów niewielkich samochodów. Te pierwsze pojazdy było zasilane wówczas nowatorskimi, chłodzonymi cieczą, czterosuwowymi, czterocylindrowymi silnikami. Karter i skrzynia biegów odlewane były z aluminium, czego w efekcie silnik ten wytwarzał 13 KM przy pojemności poniżej 800 cm³.</p>
+          <p>W związku z wybuchem II wojny światowej, plany produkcyjne Suzuki zostały przerwane w związku z ogłoszeniem przez rząd, że cywilne samochody osobowe są „towarem o niekluczowym znaczeniu”. Pod koniec wojny Suzuki wrócił do produkcji krosien, a dalszy rozwój ich produkcji związany był ze zgodą rządu amerykańskiego na import bawełny przez Japonię. Rynek powiększał się dzięki zwiększonym zamówieniom od krajowych producentów tekstyliów, zaś boom skończył się jednak załamaniem rynku w 1951 roku.</p>
+          <p>Musząc zmierzyć się z gwałtownymi zmianami, Suzuki wrócił do myśli o produkcji pojazdów. Po wojnie, w Japonii istniało wielkie zapotrzebowanie na niedrogi i pewny sposób transportu. Wiele przedsiębiorstw zaczęło sprzedawać benzynowe silniki, które można było doczepić do zwykłego roweru. Pierwszym produktem Suzuki w branży transportowej był rower z silnikiem o nazwie „Power Free”, który został zaprojektowany jako tani i prosty w konstrukcji i utrzymaniu. Model z 1952 roku posiadał dwusuwowy silnik o pojemności 36 cm³, a unikalną właściwością tego silnika był system podwójnych zębatek, dzięki któremu można było pedałować korzystając z pomocy silnika, pedałować bez silnika, albo odłączyć pedały i korzystać tylko z silnika. System ten był tak pomysłowy, że urząd patentowy nowo utworzonego, demokratycznego rządu, przyznał Suzuki dotację na kontynuację badań w zakresie inżynierii motocyklowej.</p>
+          <p>W roku 1953 pojazd marki Suzuki po raz pierwszy zwyciężył w wyścigu. Był to „Diamond Free” z silnikiem o pojemności 60 cm³, który zajął pierwsze miejsce w rajdzie po zboczach góry Fudżi.
+          Do roku 1954 Suzuki produkowało już 6000 motocykli miesięcznie i postanowiono zmienić nazwę firmy na Suzuki Motor Co., Ltd. Po pierwszych sukcesach motocykli, Suzuki stworzył jeszcze popularniejszy pojazd Suzulight z 1955 roku.
+          Suzuki od samego początku prac pokazał swoje zainteresowanie innowacjami technicznymi. Suzulight posiadał przedni napęd, niezależne zawieszenie każdego z kół i nowoczesne przeniesienie ruchów kierownicy na koła – cechy, które stały się w samochodach powszechne dopiero pół wieku później.</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="social">
+        <a href="http://youtube.com" target="_blank" class="yt"><i class="icon-youtube"></i></a>
+        <a href="http://facebook.com" target="_blank" class="fb"><i class="icon-facebook"></i></a>
+        <a href="http://plus.google.com" target="_blank" class="gplus"><i class="icon-gplus"></i></a>
+        <a href="http://twitter.com" target="_blank" class="tw"><i class="icon-twitter"></i></a>
+      </div>
+      <div class="foot-text">
+        <p>Copywrite &copy; 2019</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>

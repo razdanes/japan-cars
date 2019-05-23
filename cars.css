@@ -1,0 +1,232 @@
+/* DAEWOO */
+#drop-daewoo a:hover, li:hover {
+  color: orange;
+  background-color: tomato;
+}
+
+#drop-daewoo {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #000000;
+  width: 100%;
+  top: 100%;
+  left: 0;
+}
+
+#drop-daewoo li {
+  padding: 10px;
+}
+
+#drop-daewoo a {
+  color: white;
+  text-decoration: none;
+}
+
+#drop-daewoo.showDaewoo {
+  display: block;
+}
+
+
+/* HONDA */
+#drop-honda a:hover, li:hover {
+  color: orange;
+  background-color: tomato;
+}
+
+#drop-honda {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #000000;
+  width: 100%;
+  top: 100%;
+  left: 0;
+}
+
+#drop-honda li {
+  padding: 10px;
+}
+
+#drop-honda a {
+  color: white;
+  text-decoration: none;
+}
+
+#drop-honda.showHonda {
+  display: block;
+}
+
+/* MAZDA */
+#drop-mazda a:hover, li:hover {
+  color: orange;
+  background-color: tomato;
+}
+
+#drop-mazda {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #000000;
+  width: 100%;
+  top: 100%;
+  left: 0;
+}
+
+#drop-mazda li {
+  padding: 10px;
+}
+
+#drop-mazda a {
+  color: white;
+  text-decoration: none;
+}
+
+#drop-mazda.showMazda {
+  display: block;
+}
+
+/* MITSUBISHI */
+#drop-mtsb a:hover, li:hover {
+  color: orange;
+  background-color: tomato;
+}
+
+#drop-mtsb {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #000000;
+  width: 100%;
+  top: 100%;
+  left: 0;
+}
+
+#drop-mtsb li {
+  padding: 10px;
+}
+
+#drop-mtsb a {
+  color: white;
+  text-decoration: none;
+}
+
+#drop-mtsb.showMtsb {
+  display: block;
+}
+
+/* NISSAN */
+#drop-nissan a:hover, li:hover {
+  color: orange;
+  background-color: tomato;
+}
+
+#drop-nissan {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #000000;
+  width: 100%;
+  top: 100%;
+  left: 0;
+}
+
+#drop-nissan li {
+  padding: 10px;
+}
+
+#drop-nissan a {
+  color: white;
+  text-decoration: none;
+}
+
+#drop-nissan.showNissan {
+  display: block;
+}
+
+/* SUBARU */
+#drop-subaru a:hover, li:hover {
+  color: orange;
+  background-color: tomato;
+}
+
+#drop-subaru {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #000000;
+  width: 100%;
+  top: 100%;
+  left: 0;
+}
+
+#drop-subaru li {
+  padding: 10px;
+}
+
+#drop-subaru a {
+  color: white;
+  text-decoration: none;
+}
+
+#drop-subaru.showSubaru {
+  display: block;
+}
+
+/* SUZUKI */
+#drop-suzuki a:hover, li:hover {
+  color: orange;
+  background-color: tomato;
+}
+
+#drop-suzuki {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #000000;
+  width: 100%;
+  top: 100%;
+  left: 0;
+}
+
+#drop-suzuki li {
+  padding: 10px;
+}
+
+#drop-suzuki a {
+  color: white;
+  text-decoration: none;
+}
+
+#drop-suzuki.showSuzuki {
+  display: block;
+}
+
+/* TOYOTA */
+#drop-toyota a:hover, li:hover {
+  color: orange;
+  background-color: tomato;
+}
+
+#drop-toyota {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #000000;
+  width: 100%;
+  top: 100%;
+  left: 0;
+}
+
+#drop-toyota li {
+  padding: 10px;
+}
+
+#drop-toyota a {
+  color: white;
+  text-decoration: none;
+}
+
+#drop-toyota.showToyota {
+  display: block;
+}

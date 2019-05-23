@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MotoRaster - Auta Japońskie</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="cars.css" type="text/css">
+  <link rel="stylesheet" href="css/fontello.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="header">
+      <div class="logo">
+        <img src="car.png" alt="car" style="width: 90px; height: 70px;">
+        <h3><span style="font-size: 40px; margin: 0 10px;">AutoJapan</span></h3>
+      </div>
+      <nav class="navbar">
+        <ul class="menu">
+          <li class="close"><span style="font-size: 30px;">&times;</span></li>
+          <li><a href="index.html"><i class="icon-home"></i>Home</a></li>
+          <li class="menucars"><a href="#"><i class="icon-th"></i>About cars</a>
+            <ul class="dropcars">
+              <li><a href="daewoo.html">Daewoo</a></li>
+              <li><a href="honda.html">Honda</a></li>
+              <li><a href="mazda.html">Mazda</a></li>
+              <li><a href="mtsb.html">Mitsubishi</a></li>
+              <li><a href="nissan.html">Nissan</a></li>
+              <li><a href="subaru.html">Subaru</a></li>
+              <li><a href="suzuki.html">Suzuki</a></li>
+              <li><a href="toyota.html">Toyota</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><i class="icon-mobile"></i>Contact</a></li>
+          <li class="drop-menu"><a href="#"><i class="icon-link-ext"></i>Account</a>
+            <ul class="dropdown">
+              <li><a href="register.html">Register</a></li>
+              <li><a href="login.html">Login</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="mobile-btn"><i class="icon-menu"></i></div>
+        <div class="overlay"></div>
+      </nav>
+    </div>
+
+    <div class="main">
+      <div class="sidebar">
+        <ul class="list-car">
+          <li class="brand" id="menu-daewoo">
+            <a href="#"><img src="brands/daewoo_logo.png" alt="car" style="width: 90px; height: 70px;"></a>
+            <ul class="drop-car" id="drop-daewoo">
+              <li><a href="#">Espero</a></li>
+              <li><a href="#">Lanos</a></li>
+              <li><a href="#">Matiz</a></li>
+              <li><a href="#">Nexia</a></li>
+              <li><a href="#">Tico</a></li>
+            </ul>
+          </li>
+          <li class="brand" id="menu-honda">
+            <a href="#"><img src="brands/honda_logo.png" alt="car" style="width: 90px; height: 70px;"></a>
+            <ul class="drop-car" id="drop-honda">
+              <li><a href="#">Accord</a></li>
+              <li><a href="#">Civic</a></li>
+              <li><a href="#">City</a></li>
+              <li><a href="#">CR-V</a></li>
+              <li><a href="#">FR-V</a></li>
+              <li><a href="#">HR-V</a></li>
+              <li><a href="#">Jazz</a></li>
+            </ul>
+          </li>
+          <li class="brand" id="menu-mazda">
+            <a href="#"><img src="brands/mazda_logo.png" alt="car" style="width: 90px; height: 70px;"></a>
+            <ul class="drop-car" id="drop-mazda">
+              <li><a href="#">323F</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">6</a></li>
+              <li><a href="#">MX-5</a></li>
+              <li><a href="#">CX-3</a></li>
+              <li><a href="#">CX-5</a></li>
+            </ul>
+          </li>
+          <li class="brand" id="menu-mtsb">
+            <a href="#"><img src="brands/mitsubishi_logo.png" alt="car" style="width: 90px; height: 70px;"></a>
+            <ul class="drop-car" id="drop-mtsb">
+              <li><a href="#">ASX</a></li>
+              <li><a href="#">Colt</a></li>
+              <li><a href="#">Eclipse</a></li>
+              <li><a href="#">Gallant</a></li>
+              <li><a href="#">Lancer</a></li>
+              <li><a href="#">Outlander</a></li>
+            </ul>
+          </li>
+          <li class="brand" id="menu-nissan">
+            <a href="#"><img src="brands/nissan_logo.png" alt="car" style="width: 90px; height: 70px;"></a>
+            <ul class="drop-car" id="drop-nissan">
+              <li><a href="#">Almera</a></li>
+              <li><a href="#">Primera</a></li>
+              <li><a href="#">Juke</a></li>
+              <li><a href="#">Micra</a></li>
+              <li><a href="#">Note</a></li>
+              <li><a href="#">Qashqai</a></li>
+              <li><a href="#">Xtrail</a></li>
+            </ul>
+          </li>
+          <li class="brand" id="menu-subaru">
+            <a href="#"><img src="brands/subaru_logo.png" alt="car" style="width: 90px; height: 70px;"></a>
+            <ul class="drop-car" id="drop-subaru">
+              <li><a href="#">Forester</a></li>
+              <li><a href="#">Impreza</a></li>
+              <li><a href="#">Legacy</a></li>
+              <li><a href="#">Outback</a></li>
+              <li><a href="#">WRX</a></li>
+            </ul>
+          </li>
+          <li class="brand" id="menu-suzuki">
+            <a href="#"><img src="brands/suzuki_logo.png" alt="car" style="width: 90px; height: 70px;"></a>
+            <ul class="drop-car" id="drop-suzuki">
+              <li><a href="">Liana</a></li>
+              <li><a href="">Splash</a></li>
+              <li><a href="">Swift</a></li>
+              <li><a href="">SX4</a></li>
+              <li><a href="">Vitara</a></li>
+            </ul>
+          </li>
+          <li class="brand" id="menu-toyota">
+            <a href="#"><img src="brands/toyota_logo.png" alt="car" style="width: 90px; height: 70px;"></a>
+            <ul class="drop-car" id="drop-toyota">
+              <li><a href="#">Auris</a></li>
+              <li><a href="#">Avensis</a></li>
+              <li><a href="#">Aygo</a></li>
+              <li><a href="#">Corolla</a></li>
+              <li><a href="#">Camry</a></li>
+              <li><a href="#">Yaris</a></li>
+              <li><a href="#">RAV4</a></li>
+              <li><a href="#">Hillux</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="content">
+        <h4>Toyota</h4><br />
+        <p>Toyota Motor Corporation (jap. - トヨタ自動車株式会社) – japoński koncern motoryzacyjny utworzony w 1937 roku.</p><br /><br />
+        <img src="img/toyota1.jpg" style="width: 450px; height: 250px; margin-top: 20px; border: 3px solid black;">
+        <img src="img/toyota2.jpg" style="width: 450px; height: 250px; margin-top: 20px; border: 3px solid black;">
+        <br />
+        <h4>Historia</h4>
+        <p>Historia firmy Toyota sięga 1918 roku, kiedy to Sakichi Toyoda założył firmę Toyoda Spinning and Weaving Co. Ltd.. Przy
+        pomocy swojego syna - Kiichirō Toyody zbudował w 1924 roku automatyczny warsztat tkacki. W 1926 roku Toyoda założył
+        zakład Toyoda Automatic Loom Works. Pod koniec lat 20. XX wieku Kiichirō Toyoda przebywał w Europie i Stanach
+        Zjednoczonych, gdzie zainteresował się branżą motoryzacyjną. W 1933 roku w warsztatach tkackich utworzony został dział
+        samochodów[3]. Początkowo zbudowany został sześciocylindrowy silnik o pojemności 3.4 l. Dzięki sprzedaży praw
+        patentowych Sakichi Toyody do automatycznego warsztatu tkackiego stworzone zostały podwaliny Toyota Motor Corporation,
+        która założona została 28 sierpnia 1937 roku[4]. Dwa lata wcześniej zbudowany został pierwszy prototyp samochodu Toyota
+        A1, a rok później rozpoczęto już produkcję modelu AA[3].</p><br />
+        <p>W trakcie II wojny światowej w zakładach Toyoty konstruowany był mały miejski samochód, który mógłby zmotoryzować
+        Japonię. W 1947 roku ukończono prace nad modelem SA[3]. W 1951 roku zbudowano prototyp BJ inspirowany konstrukcją Jeep
+        Willysa, dając początek serii Land Cruiser, a w 1955 roku wprowadzono do produkcji model Crown[3]. W 1966 roku
+        wprowadzono do produkcji najbardziej popularny na świecie model firmy - Corolla. W 1997 roku wprowadzono do produkcji
+        pierwszy masowo produkowany samochód hybrydowy marki, model Prius.</p><br />
+        <p>W 1982 roku Toyota Motor Company i Toyota Motor Sales połączyły się w jedno przedsiębiorstwo o nazwie Toyota Motor
+        Corporation. W 1984 roku utworzona została spółka z amerykańskim koncernem motoryzacyjnym General Motors - The United
+        Motor Manufacturing Inc.[3]. Celem zbudowania spółki był amerykański rynek zbytu na którym jako pierwszy pojawił się w
+        1983 roku model Camry. W 1989 roku utworzona została submarka zajmująca się produkcją samochodów luksusowych o nazwie
+        Lexus[3].
+        Do 2020 roku Toyota jest sponsorem Międzynarodowego Komitetu Olimpijskiego oraz Międzynarodowego Komitetu
+        Paraolimpijskiego.</p><br /><br />
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="social">
+        <a href="http://youtube.com" target="_blank" class="yt"><i class="icon-youtube"></i></a>
+        <a href="http://facebook.com" target="_blank" class="fb"><i class="icon-facebook"></i></a>
+        <a href="http://plus.google.com" target="_blank" class="gplus"><i class="icon-gplus"></i></a>
+        <a href="http://twitter.com" target="_blank" class="tw"><i class="icon-twitter"></i></a>
+      </div>
+      <div class="foot-text">
+        <p>Copywrite &copy; 2019</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
